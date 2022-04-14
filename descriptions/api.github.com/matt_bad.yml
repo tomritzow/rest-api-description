@@ -1,0 +1,8 @@
+DataMart\Users: 
+  name: testFirstNameLower
+   suites:
+     - suite: dataMart
+     - suite: userDim
+   dataset: 
+     source:  etlUnitTest 
+       table:  users
